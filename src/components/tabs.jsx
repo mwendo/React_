@@ -1,13 +1,15 @@
 import React from 'react';
 
-const tabs = (props) => {
+const Tabs = (props) => {
 
 
     return (
-        <div>
-            <h1>Tabs</h1>
+        <div className="tabs">
+            <div>
+                <button>Tab {props.number}</button>
+            </div>
         </div>
     );
 };
 
-export default tabs;
+export default Tabs;
