@@ -1,14 +1,12 @@
-import './App.css';
 import React from 'react';
+import './App.css';
 import Tabs from './components/Tabs';
-import './components/Tabs.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Tabs number="1"/>
-      <Tabs number="2"/>
-      <Tabs number="3"/>
+      <Tabs/>
     </div>
   );
 }
